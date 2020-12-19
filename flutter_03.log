@@ -1,0 +1,47 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome -v
+
+## exception
+
+HttpException: HttpException: , uri = http://localhost:35461/devtools/page/DCB4D82B58CE7196AFDFDF14240181D7
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 1.25.0-8.1.pre, on Linux, locale en_US.UTF-8)
+    • Flutter version 1.25.0-8.1.pre at /home/svprdga/snap/flutter/common/flutter
+    • Framework revision 8f89f6505b (2 days ago), 2020-12-15 15:07:52 -0800
+    • Engine revision 92ae191c17
+    • Dart version 2.12.0 (build 2.12.0-133.2.beta)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+    • Android SDK at /home/svprdga/Android/Sdk
+    • Platform android-30, build-tools 30.0.2
+    • Java binary at: /usr/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.52.1)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.17.0
+
+[✓] Connected device (2 available)
+    • SM N975F (mobile) • RF8N10PV53N • android-arm64  • Android 10 (API 29)
+    • Chrome (web)      • chrome      • web-javascript • Google Chrome 87.0.4280.88
+
+! Doctor found issues in 1 category.
+```
